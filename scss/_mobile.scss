@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.3rem 1rem;
+}
+.home__hero__img-desktop {
+  display: none;
+}
+.home__hero__img-mobile {
+  max-width: 100%;
+}

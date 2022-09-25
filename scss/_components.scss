@@ -1,0 +1,89 @@
+body {
+  overflow-x: hidden;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background: $almost-black-a;
+  z-index: 0;
+  visibility: hidden;
+  transition: visibility 250ms ease;
+}
+.overlay.open {
+  visibility: visible;
+}
+.nav__bar {
+  position: absolute;
+  width: 240px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: $almost-white;
+  height: 100vh;
+  transition: transform 250ms ease-in-out;
+  transform: translateX(240px);
+}
+.nav__bar.open {
+  transform: translateX(0px);
+}
+.nav__top-level,
+.nav__dropdown,
+.nav__account {
+  list-style-type: none;
+}
+.nav__close__img {
+  width: 22px;
+  position: relative;
+  left: 80%;
+  margin-top: 1.3rem;
+}
+
+.nav__top__item,
+.nav__item {
+  padding: $link-padding;
+}
+
+.img__container {
+  height: 18px;
+  width: 18px;
+}
+.link__img {
+  height: 18px;
+  margin: 0 auto;
+  display: block;
+}
+
+.features .nav__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.nav__dropdown {
+  // transform: scaleY(0);
+  // transform-origin: top;
+  max-height: 0;
+  // height: 0px;
+  overflow: hidden;
+  // transition: height 150ms ease;
+  transition: max-height 250ms ease-in;
+}
+
+.nav__dropdown.open {
+  // transform: scaleY(1);
+  // transition: max-height 250ms ease-in;
+  max-height: 175px;
+  // max-height: 100%;
+}
+
+.arrow {
+  transform: rotate(0deg);
+  transition: transform 250ms ease-in;
+}
+.arrow.open {
+  height: 100%;
+  transform: rotate(180deg);
+}

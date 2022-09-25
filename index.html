@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Snap</title>
+  </head>
+  <body>
+    <div class="overlay open"></div>
+    <header class="header">
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+      <a href="#" class="menu__bar"
+        ><img
+          src="./images/icon-menu.svg"
+          alt="menu bar"
+          class="menu__hamburger"
+      /></a>
+      <nav class="nav__bar open">
+        <a href="#" class="nav__close"
+          ><img
+            src="./images/icon-close-menu.svg"
+            alt="close"
+            class="nav__close__img"
+        /></a>
+        <ul class="nav__top-level">
+          <li class="nav__top__item">
+            <a href="#" class="nav__top__link features__link"
+              >Features
+              <span class="nav__arrow"
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow" /></span
+            ></a>
+            <ul class="nav__dropdown features">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="img__container">
+                    <img
+                      src="/images/icon-todo.svg"
+                      alt="todo"
+                      class="link__img todo"
+                    />
+                  </span>
+                  <span class="link">Todo</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="img__container">
+                    <img
+                      src="/images/icon-calendar.svg"
+                      alt="calendar"
+                      class="link__img todo"
+                    />
+                  </span>
+                  <span class="link">Calendar</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="img__container">
+                    <img
+                      src="/images/icon-reminders.svg"
+                      alt="reminders"
+                      class="link__img todo"
+                    />
+                  </span>
+                  <span class="link">Reminders</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="img__container">
+                    <img
+                      src="/images/icon-planning.svg"
+                      alt="planning"
+                      class="link__img todo"
+                    />
+                  </span>
+                  <span class="link">Planning</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__top__item">
+            <a href="#" class="nav__top__link company__link"
+              >Company
+              <span class="nav__arrow"
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow" /></span
+            ></a>
+            <ul class="nav__dropdown company">
+              <li class="nav__item">
+                <a href="#" class="nav__link"> History </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link"> Our Team </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link"> Blog </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__top__item">
+            <a href="#" class="nav__top__link">Careers</a>
+          </li>
+          <li class="nav__top__item">
+            <a href="#" class="nav__top__link">About</a>
+          </li>
+        </ul>
+        <ul class="nav__account">
+          <li class="account__item">
+            <a href="#" class="account__link account__login">Login</a>
+          </li>
+          <li class="account__item">
+            <a href="#" class="account__link account__register">Register</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <img
+          src="./images/image-hero-mobile.png"
+          alt=""
+          class="home__hero__img-mobile"
+        />
+        <img
+          src="./images/image-hero-desktop.png"
+          alt=""
+          class="home__hero__img-desktop"
+        />
+        <h1 class="hero__text">Make remote work</h1>
+        <p class="hero__copy">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="clients">
+          <img src="./images/client-databiz.svg" alt="databiz" class="client" />
+          <img
+            src="./images/client-audiophile.svg"
+            alt="audiophile"
+            class="client"
+          />
+          <img src="./images/client-meet.svg" alt="meet" class="client" />
+          <img src="./images/client-maker.svg" alt="maker" class="client" />
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

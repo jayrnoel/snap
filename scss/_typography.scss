@@ -1,0 +1,22 @@
+.nav__link,
+.nav__top__link,
+.account__link {
+  text-decoration: none;
+  color: $med-gray;
+  margin-left: 1rem;
+}
+
+.nav__link:hover,
+.nav__top__link:hover,
+.account__link:hover {
+  color: $almost-black;
+}
+
+.nav__top__link,
+.account__link {
+  padding: $link-padding;
+}
+.nav__dropdown {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
