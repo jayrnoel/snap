@@ -1,8 +1,100 @@
-@media (min-width: 720px) {
+@media (min-width: 780px) {
+  .overlay {
+    display: none;
+  }
   .home__hero__img-mobile {
     display: none;
   }
   .home__hero__img-desktop {
     display: block;
+  }
+  .menu__bar {
+    display: none;
+  }
+  .nav__close {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .nav__bar {
+    position: relative;
+    width: 85%;
+    height: unset;
+    transform: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -8px;
+  }
+  .nav__top-level {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .nav__account {
+    display: flex;
+    align-items: center;
+  }
+  .nav__dropdown {
+    position: absolute;
+    background-color: $almost-white;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+  }
+  .features {
+    left: -80px;
+  }
+  .nav__item {
+    padding: 0.8rem 1.8rem;
+  }
+  .nav__item:first-child {
+    margin-top: 1.2rem;
+  }
+  .nav__item:last-child {
+    margin-bottom: 1.2rem;
+  }
+  .nav__link {
+    margin-left: 0;
+  }
+
+  .home {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    max-width: 1200px;
+    align-items: flex-start;
+  }
+  .hero {
+    width: 60%;
+    text-align: left;
+    padding-right: 5rem;
+  }
+  .home__img {
+    order: 1;
+    width: 40%;
+  }
+  .home__img img {
+    max-width: 100%;
+  }
+  .hero__text {
+    font-size: 4.5rem;
+    margin: 3rem 0;
+  }
+  .hero__copy {
+    width: 80%;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .clients {
+    margin: 2.5rem 0;
+  }
+  .client {
+    width: 24%;
   }
 }

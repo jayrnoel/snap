@@ -17,7 +17,7 @@
     <title>Snap</title>
   </head>
   <body>
-    <div class="overlay open"></div>
+    <div class="overlay"></div>
     <header class="header">
       <img src="./images/logo.svg" alt="logo" class="logo" />
       <a href="#" class="menu__bar"
@@ -26,7 +26,7 @@
           alt="menu bar"
           class="menu__hamburger"
       /></a>
-      <nav class="nav__bar open">
+      <nav class="nav__bar">
         <a href="#" class="nav__close"
           ><img
             src="./images/icon-close-menu.svg"
@@ -53,7 +53,7 @@
                       class="link__img todo"
                     />
                   </span>
-                  <span class="link">Todo</span>
+                  <span class="link">Todo List</span>
                 </a>
               </li>
               <li class="nav__item">
@@ -134,32 +134,40 @@
     </header>
     <main>
       <section class="home">
-        <img
-          src="./images/image-hero-mobile.png"
-          alt=""
-          class="home__hero__img-mobile"
-        />
-        <img
-          src="./images/image-hero-desktop.png"
-          alt=""
-          class="home__hero__img-desktop"
-        />
-        <h1 class="hero__text">Make remote work</h1>
-        <p class="hero__copy">
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button class="learn-more">Learn more</button>
-        <div class="clients">
-          <img src="./images/client-databiz.svg" alt="databiz" class="client" />
+        <section class="home__img">
           <img
-            src="./images/client-audiophile.svg"
-            alt="audiophile"
-            class="client"
+            src="./images/image-hero-mobile.png"
+            alt=""
+            class="home__hero__img-mobile"
           />
-          <img src="./images/client-meet.svg" alt="meet" class="client" />
-          <img src="./images/client-maker.svg" alt="maker" class="client" />
-        </div>
+          <img
+            src="./images/image-hero-desktop.png"
+            alt=""
+            class="home__hero__img-desktop"
+          />
+        </section>
+        <section class="hero">
+          <h1 class="hero__text">Make remote work</h1>
+          <p class="hero__copy">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learn-more">Learn more</button>
+          <div class="clients">
+            <img
+              src="./images/client-databiz.svg"
+              alt="databiz"
+              class="client"
+            />
+            <img
+              src="./images/client-audiophile.svg"
+              alt="audiophile"
+              class="client"
+            />
+            <img src="./images/client-meet.svg" alt="meet" class="client" />
+            <img src="./images/client-maker.svg" alt="maker" class="client" />
+          </div>
+        </section>
       </section>
     </main>
     <script src="./app.js"></script>
