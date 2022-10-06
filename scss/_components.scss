@@ -41,7 +41,8 @@ body {
 }
 
 .nav__top__item,
-.nav__item {
+.nav__item,
+.account__item {
   padding: $link-padding;
 }
 
@@ -96,4 +97,9 @@ body {
   border-radius: 1rem;
   font-size: 1rem;
   font-family: Epilogue;
+}
+
+.learn-more:hover {
+  color: $almost-black;
+  background-color: $almost-white;
 }

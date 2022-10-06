@@ -60,7 +60,8 @@ body {
 }
 
 .nav__top__item,
-.nav__item {
+.nav__item,
+.account__item {
   padding: 0.8rem 0;
 }
 
@@ -117,6 +118,11 @@ body {
   border-radius: 1rem;
   font-size: 1rem;
   font-family: Epilogue;
+}
+
+.learn-more:hover {
+  color: hsl(0deg, 0%, 8%);
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 .nav__link,
@@ -179,6 +185,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav__account {
+  text-align: center;
 }
 
 @media (min-width: 780px) {
@@ -246,25 +256,26 @@ body {
   }
   .home {
     width: 80%;
+    max-width: 1440px;
     margin: 3rem auto;
     display: flex;
     max-width: 1200px;
     align-items: flex-start;
   }
   .hero {
-    width: 60%;
+    width: 45%;
     text-align: left;
-    padding-right: 5rem;
+    padding-right: 2rem;
   }
   .home__img {
     order: 1;
-    width: 40%;
+    width: 50%;
   }
   .home__img img {
     max-width: 100%;
   }
   .hero__text {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     margin: 3rem 0;
   }
   .hero__copy {
@@ -277,6 +288,55 @@ body {
   }
   .client {
     width: 24%;
+  }
+}
+@media (min-width: 980px) {
+  .hero__text {
+    font-size: 3.5rem;
+    margin: 4rem 0 3rem;
+  }
+  .hero {
+    width: 50%;
+    text-align: left;
+    padding-right: 4rem;
+  }
+  .home__img {
+    width: 45%;
+  }
+  .clients {
+    margin: 3.5rem 0;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__text {
+    font-size: 3.8rem;
+    margin: 5rem 0 4rem;
+    padding-right: 6rem;
+  }
+  .hero {
+    width: 58%;
+  }
+  .clients {
+    margin: 4.5rem 0;
+  }
+  .home__img {
+    width: 42%;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__text {
+    font-size: 5rem;
+    margin: 6.5rem 0 4rem;
+    padding-right: 6rem;
+  }
+  .hero {
+    width: 58%;
+  }
+  .clients {
+    margin: 4.5rem 0;
+  }
+  .home__img {
+    width: 42%;
   }
 }
 
