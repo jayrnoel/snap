@@ -68,7 +68,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-For using SASS I used the[SASS Documentation](https://sass-lang.com/guide) and watched [Coder Coder's video](https://www.youtube.com/watch?v=jfMHA8SqUL4)
+For using SASS I used the [SASS Documentation](https://sass-lang.com/guide) and watched [Coder Coder's video](https://www.youtube.com/watch?v=jfMHA8SqUL4)
 
 ## Author
 
