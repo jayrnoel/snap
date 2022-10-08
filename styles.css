@@ -117,6 +117,7 @@ body {
   padding: 0.8rem 1rem;
   border-radius: 1rem;
   font-size: 1rem;
+  cursor: pointer;
   font-family: Epilogue;
 }
 
