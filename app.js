@@ -22,17 +22,20 @@ close.addEventListener("click", () => {
 
 featuresLink.addEventListener("click", (e) => {
   feature.classList.toggle("open");
-  let arrow = e.target.querySelector(".arrow");
-  arrow.classList.toggle("open");
+  toggleArrow(e);
 });
 
 companyLink.addEventListener("click", (e) => {
   company.classList.toggle("open");
-  let arrow = e.target.querySelector(".arrow");
-  arrow.classList.toggle("open");
+  toggleArrow(e);
 });
 
 function closeMenu() {
   overlay.classList.remove("open");
   navBar.classList.remove("open");
+}
+
+function toggleArrow(e) {
+  let arrow = e.target.querySelector(".arrow");
+  arrow.classList.toggle("open");
 }

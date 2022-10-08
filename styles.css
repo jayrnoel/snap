@@ -86,7 +86,7 @@ body {
 .nav__dropdown {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 250ms ease-in;
+  transition: all 250ms ease-in;
 }
 
 .nav__dropdown.open {
