@@ -235,7 +235,7 @@ body {
   }
   .nav__dropdown {
     position: absolute;
-    background-color: hsl(0deg, 0%, 98%);
+    background-color: hsl(0deg, 0%, 100%);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
   }
@@ -292,7 +292,7 @@ body {
 }
 @media (min-width: 980px) {
   .hero__text {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin: 4rem 0 3rem;
   }
   .hero {
@@ -309,7 +309,7 @@ body {
 }
 @media (min-width: 1200px) {
   .hero__text {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     margin: 5rem 0 4rem;
     padding-right: 6rem;
   }
